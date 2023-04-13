@@ -1,0 +1,472 @@
+*{
+    border: none;   
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+div{
+    min-width: 100px;
+    min-height: 100px;
+    /* background-color: blue; */
+    /* border: 1px solid black; */
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.wrap{
+    width: 950px;
+    margin: 0 auto;
+}
+
+
+
+.mot .wrap{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1rem;
+    color: white;
+}
+
+.mot .wrap .lienhe .xam{
+    color: gray;
+}
+
+.mot li {
+    list-style: none;
+    display: inline;
+    padding: 10px;
+}
+
+.mot u {
+    text-decoration: none;
+    color:rgb(148, 146, 146);
+}
+
+.mot li a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.hai .wrap{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1rem;
+    color: white;
+}
+
+.hai li {
+    list-style: none;
+    display: inline;
+    padding: 7px;
+    
+}
+
+.hai{
+    border-top:1px solid rgba(255,255,255,.5);
+}
+
+.hai .wrap .tieude h4{
+    padding-top: 15px;
+}
+
+.hai .wrap .menu ul{
+    padding-top: 15px;
+}
+
+.hai li a{
+    text-decoration: none;
+    color: white;
+}
+
+.banner img{
+    width: 100%;
+     height: 155px;
+}
+
+
+
+/* .gop{
+    position: relative;
+} */
+
+/* .gop .mot{
+    position: absolute;
+    top: 0px;
+    left: 160px;
+} */
+
+/* .gop .hai{
+    position: absolute;
+    top: 50px;
+    left: 160px;
+} */
+
+.mot{
+    margin-bottom: -60px;
+    background-image: url(../images/background.png);
+}
+
+
+.hai{
+    background-image: url(../images/background.png);
+}
+
+
+.ba{
+    padding-top: 25px;
+    background-color: #00132b;
+    
+}
+.ba .wrap{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    height: 252px;
+ 
+}
+
+.ba .wrap .form ul li{
+    list-style: none;
+}
+
+.ba .wrap .form .listinput{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.ba .wrap .form {
+    margin-left: 220px;
+}
+
+.ba .wrap .form ul li input{
+    height: 30px;
+    width: 100%;
+    box-sizing: border-box  ;
+}
+
+.ba .wrap .form ul li input[type="text"]{
+    background-color: #003d60;
+    
+}
+
+.ba .wrap .form ul li input[type="email"]{
+    background-color: #003d60;
+   
+}
+
+.ba .wrap .form input#submit{
+   background-color: #00132b;
+
+}
+
+
+.ba .wrap .form ul{
+    padding-left: 2px;
+}
+
+.ba .wrap .form ul li{
+    padding-bottom: 10px;
+}
+
+
+.ba .wrap .form input#submit{
+    height: 35px;
+    border: 3px solid orangered;
+    width: 125px;
+    color:  orangered;
+
+}
+
+
+.ba .wrap .form input#submit{
+    margin-left: 290px;
+    margin-top: -7px;
+
+}
+
+
+.ba .wrap .form ul li input::placeholder{
+    color: white;
+}
+
+.ba .wrap .form h2{
+    color: white;
+}
+
+
+.bon{
+    padding-top: 28px;
+}
+
+.bon .wrap{
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.9rem;
+}
+
+
+.bon .wrap .item .con .text a{
+    text-decoration: none;
+}
+
+.bon .wrap .item .con{
+    margin-top: -35px;
+}
+
+/* .bon .wrap .item .tieude h2 u{
+    text-decoration: none;
+    border-bottom: 1px solid gray;
+    
+} */
+
+.bon .wrap .item .con .text p{
+    margin-top: 2px;
+    color: grey ;
+}
+
+
+.bon .wrap .item2 .con .text p{
+    margin-top: 12px;
+    color: grey ;
+}
+
+.bon .wrap .item .tieude h2 u{
+    text-decoration: none;
+    border-bottom: 2px solid grey;
+   padding-bottom: 12px;
+    
+}
+
+
+
+
+.bon .wrap .item3{
+    width: 600px ;
+}
+
+
+.bon .wrap .item2{
+    width: 500px ;
+}
+
+.bon .wrap .item3 .con .anh img{
+    width: 316px;
+}
+.nam .wrap .chung{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nam .wrap .chung .item li a{
+    text-decoration: none;
+    color:  white;
+}
+
+.nam{
+    color: white;
+}
+
+.nam .wrap .chung{
+    padding: 50px;
+}
+
+.nam .wrap .chung .item .con{
+    margin-top: -45px;
+}
+
+.nam .wrap .chung .item .con ul li{
+    padding-bottom: 16px;
+}
+
+
+.nam .wrap .chung{
+    background-color: #003061;
+}
+
+.nam .wrap .chung .item .tieude h3 u{
+    text-decoration: none;
+    border-bottom: 2px solid rgb(155, 154, 154);
+    padding-bottom: 14px;
+}
+
+
+/* .nam .wrap .item .tieude{
+    margin-left: 23px;
+} */
+
+.sau{
+    padding-bottom: 60px;
+    padding-top: 55px;
+}
+.sau .wrap{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+}
+
+.sau .wrap .item1 .mot{
+    display: flex;
+    justify-content: center;
+}
+.sau .wrap .item1 .hai{
+    display: flex;
+    justify-content: center;
+}
+
+.sau .wrap .item1{
+    font-size: 1rem;
+}
+
+.sau .wrap .item .tieude h3 u{
+    text-decoration: none;
+    border-bottom: 2px solid rgb(187, 186, 186);
+    padding-bottom: 12px;
+}
+
+.sau .wrap .item1 h5{
+    color: rgb(3, 3, 73);
+}
+
+
+.sau .wrap .item .mot .anh img{
+    height: 100px;
+    width: 100px;
+}
+
+.sau .wrap .item .hai .anh img{
+    height: 100px;
+    width: 100px;
+}
+
+.sau .wrap .item1 .mot{
+      flex-direction: row;
+      height: 100px;
+      width: 285px;
+}
+.sau .wrap .item1 .tieude{
+    margin-bottom : -35px;
+}
+
+.sau .wrap .item2 .tieude{
+    margin-bottom : -35px;
+}
+
+
+.sau .wrap .item1 .mot .thongtin{
+    background-color: white;
+}
+.sau .wrap .item1 .hai .thongtin{
+    background-color: white;
+}
+
+.sau .wrap .item1 .hai{
+    flex-direction: row;
+    height: 100px;
+    width: 300px;
+}
+
+
+.sau .wrap .item1 .mot{
+    margin-right: 42px;
+}
+
+
+.sau .wrap .item1 .hai{
+    margin-top: 90px;
+}
+
+.sau .wrap .item1 .mot .thongtin{
+    margin-top: -15px;
+}
+.sau .wrap .item1 .hai .thongtin{
+    margin-top: -15px;
+}
+
+
+.sau .wrap .item2 .anh{
+    display: flex;
+    justify-content: center;
+
+}
+
+.sau .wrap .item2 .anh .anh1{
+    margin-right: -17px;
+    
+}
+
+.sau .wrap .item2 .anh .anh1 .a2{
+    margin-top: -15px; 
+}
+
+
+.bay .wrap{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.bay .wrap .item h3{
+    font-size: 1.2rem;
+}
+
+.bay .wrap .item p{
+    font-size: 1rem;
+}
+
+.bay .wrap .item p{
+    margin-top: -42px;
+}
+
+
+.bay .wrap .item2 .con ul li a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+.bay .wrap .item .con ul{
+    margin-top: -42px;
+    
+}
+
+.bay{
+    padding-top: 16px;
+    padding-bottom: 22px;
+}
+
+.bay .wrap .item .con u{
+    text-decoration: double;
+    border-bottom: 0.5px dashed #616161;
+}
+
+.bay .wrap .item .tieude u{
+    text-decoration: none;
+    border-bottom: 2px solid gray;
+    padding-bottom: 14px;
+}
+
+
+.bay{
+    background-image: url(../images/background.png);
+}
+
+.tam{
+    background-color: #003061;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
